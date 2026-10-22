@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff5f9">
+  <meta name="description" content="Doces e batatas recheadas feitos com carinho em Taubaté. Confira o cardápio da Hotness da Babi e faça seu pedido pelo WhatsApp.">
+  <title>Hotness da Babi — Doces e batatas recheadas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">Doces e batatas recheadas preparados com carinho <strong>· Taubaté, SP</strong></div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Hotness da Babi, início"><img src="assets/logo.jpg" alt="Logo Hotness da Babi"><span>Hotness da Babi<small>Doces &amp; batatas recheadas</small></span></a>
+      <nav class="navlinks" id="navlinks" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#sobre">Avaliações</a><a href="#contato">Contato</a>
+      </nav>
+      <a class="button" href="https://api.whatsapp.com/send/?phone=12988268177&amp;text&amp;type=phone_number&amp;app_absent=0&amp;utm_source=ig" target="_blank" rel="noopener">Pedir pelo WhatsApp <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L4 20l1.1-3.3A8.5 8.5 0 1 1 20 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.7 8.3c.2-.5.5-.5.8-.5h.4c.2 0 .4.1.5.4l.6 1.5c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4-.1.6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.4-.4.4-1 .5-1.5.4-1.3-.2-2.8-1-4-2.2-1.1-1.1-1.9-2.6-2-3.8-.1-.6.2-1.1.7-1.3Z" fill="currentColor"/></svg></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navlinks">☰</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Um carinho em cada pedido</span>
+          <h1>Um docinho ou uma batata bem <em>recheada?</em></h1>
+          <p class="hero-copy">Na Hotness da Babi, você encontra sabores para deixar o dia mais gostoso — do primeiro pedaço à última colherada.</p>
+          <div class="hero-actions"><a class="button" href="#cardapio">Conhecer o cardápio</a><a class="button button-outline" href="https://api.whatsapp.com/send/?phone=12988268177&amp;text&amp;type=phone_number&amp;app_absent=0&amp;utm_source=ig" target="_blank" rel="noopener">Fazer um pedido</a></div>
+          <div class="location"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" stroke="currentColor" stroke-width="1.8"/></svg>Taubaté, São Paulo</div>
+        </div>
+        <div class="hero-art" aria-label="Identidade visual da Hotness da Babi"><img class="hero-logo" src="assets/logo.jpg" alt="Logo rosa da Hotness da Babi"><div class="stamp"><span class="stamp-mark">✦</span><span><strong>Feito com carinho</strong><small>Um sabor para cada vontade</small></span></div></div>
+      </div>
+    </section>
+    <div class="intro-strip" aria-label="Destaques">
+      <div class="container intro-row"><div class="intro-item"><span class="intro-icon">♡</span><span><strong>Feito com carinho</strong><br><span>Para deixar seu dia melhor</span></span></div><div class="intro-item"><span class="intro-icon">✦</span><span><strong>Doces e salgados</strong><br><span>Escolha o que combina com você</span></span></div><div class="intro-item"><span class="intro-icon">↗</span><span><strong>Pedido fácil</strong><br><span>Chame a Babi pelo WhatsApp</span></span></div></div>
+    </div>
+    <section class="menu-section" id="cardapio">
+      <div class="container">
+        <div class="section-head"><span class="eyebrow">Escolha seu favorito</span><h2>Cardápio</h2><p>Tem vontade de doce ou prefere algo bem recheado? Veja as opções disponíveis.</p></div>
+        <div class="tabs" role="tablist" aria-label="Categorias do cardápio" id="tabs"></div>
+        <div class="product-grid" id="products" aria-live="polite"></div>
+        <div class="extras" id="extras" hidden><strong>Adicionais para as batatas</strong></div>
+        <p class="menu-foot">Para fazer seu pedido ou confirmar disponibilidade, fale com a Babi pelo WhatsApp.</p>
+      </div>
+    </section>
+    <section class="trust" id="sobre">
+      <div class="container"><div class="trust-card"><div class="trust-number">21</div><div class="trust-copy"><h2>Feedbacks positivos</h2><p>O carinho de quem já pediu faz parte da história da Hotness da Babi.</p></div><div class="stars" aria-label="Avaliações positivas">★★★★★</div></div></div>
+    </section>
+    <section class="contact-section" id="contato">
+      <div class="container"><div class="contact-card"><div><span class="eyebrow">Seu próximo favorito está aqui</span><h2>Bateu vontade?</h2><p>Chame a Babi, escolha o seu pedido e combine os detalhes pelo WhatsApp.</p></div><div class="contact-actions"><a class="button" href="https://api.whatsapp.com/send/?phone=12988268177&amp;text&amp;type=phone_number&amp;app_absent=0&amp;utm_source=ig" target="_blank" rel="noopener">Fazer pedido</a><a class="button button-outline" href="https://www.instagram.com/hotnessdababi/" target="_blank" rel="noopener">Ver Instagram</a></div></div></div>
+    </section>
+  </main>
+  <footer><div class="container footer-row"><div class="footer-brand"><img src="assets/logo.jpg" alt=""><span>Hotness da Babi</span></div><div class="footer-meta">Doces e batatas recheadas · Taubaté, SP</div><div class="footer-links"><a href="https://www.instagram.com/hotnessdababi/" target="_blank" rel="noopener">Instagram</a><a href="https://api.whatsapp.com/send/?phone=12988268177&amp;text&amp;type=phone_number&amp;app_absent=0&amp;utm_source=ig" target="_blank" rel="noopener">WhatsApp</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
